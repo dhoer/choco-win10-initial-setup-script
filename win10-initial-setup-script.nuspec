@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>win10-initial-setup-script</id>
+    <version>2.7</version>
+    <title>Win10 / WinServer2016 Initial Setup Script</title>
+    <authors>Disassembler disassembler@dasm.cz</authors>
+    <projectUrl>https://github.com/Disassembler0/Win10-Initial-Setup-Script</projectUrl>
+    <tags>windows setup</tags>
+    <summary>PowerShell script for automation of routine tasks done after fresh installations of Windows 10 / Windows Server 2016</summary>
+    <description>
+This is a PowerShell script for automation of routine tasks done after fresh installations of Windows 10 and Windows Server 2016.
+This is by no means any complete set of all existing Windows tweaks and neither is it another "antispying" type of script.
+It's simply a setting which I like to use and which in my opinion make the system less obtrusive.
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
