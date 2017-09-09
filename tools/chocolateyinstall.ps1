@@ -1,13 +1,4 @@
-﻿$packageName    = $env:ChocolateyPackageName
-$packageVersion = $env:ChocolateyPackageVersion
-$url            = 'https://github.com/Disassembler0/Win10-Initial-Setup-Script/archive/2.7.zip'
-$toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$checksum       = '801da854786017ac8d6b45d6f276db23b8fc12075550afa7fb267595bc628a33'
-$checksumType   = 'sha256'
-
-Install-ChocolateyZipPackage $packageName $url $toolsDir -checksum $checksum -checksumType $checksumType
-
-$pp = Get-PackageParameters
+﻿$pp = Get-PackageParameters
 
 $server = (Get-CimInstance Win32_OperatingSystem).caption -like '*server*'
 
