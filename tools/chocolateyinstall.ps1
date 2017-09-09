@@ -1,6 +1,6 @@
-﻿$pp = Get-PackageParameters
-
-$server = (Get-CimInstance Win32_OperatingSystem).caption -like '*server*'
+﻿$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$pp       = Get-PackageParameters
+$server   = (Get-CimInstance Win32_OperatingSystem).caption -like '*server*'
 
 . $toolsDir\tweaks.ps1
 
