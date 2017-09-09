@@ -5,8 +5,8 @@ fresh installations of Windows 10 and Windows Server 2016.
 
 https://github.com/Disassembler0/Win10-Initial-Setup-Script
 
-This script will download and execute and ApplyAll (default)
-and RestoreAll presets for OS type, e.g., WinServer2016-*All.preset.
+This script will execute and ApplyAll (default) and RestoreAll presets
+for Windows OS type, e.g., WinServer2016-*All.preset.
 
 ## Usage
 
